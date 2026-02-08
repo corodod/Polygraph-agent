@@ -41,27 +41,6 @@
 
 
 ====================
-СТРУКТУРА ПРОЕКТА
-====================
-
-polygraph-agent/
-├── src/
-│   ├── graph.py
-│   ├── main.py
-│   ├── webapp.py
-│   ├── openrouter_client.py
-│   ├── prompts.py
-│   ├── tools_calc.py
-│   └── tools_web.py
-├── data/
-│   └── questions.csv
-├── templates/
-│   └── index.html
-├── .env
-└── README.txt
-
-
-====================
 ПЕРЕМЕННЫЕ ОКРУЖЕНИЯ
 ====================
 
@@ -119,3 +98,4 @@ sin(90) - cos(90) = 1
 
 Polygraph Agent — инструментально-ориентированный агент,
 где LLM управляет логикой, но не подменяет факты и вычисления.
+
