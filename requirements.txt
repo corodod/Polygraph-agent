@@ -1,0 +1,10 @@
+langgraph
+python-dotenv
+pandas
+requests
+tavily-python
+gradio
+
+fastapi
+uvicorn[standard]
+jinja2

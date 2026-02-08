@@ -1,0 +1,43 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ---- Virtual env ----
+.venv/
+venv/
+ENV/
+env/
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Env / secrets ----
+.env
+.env.*
+*.pem
+*.key
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Logs / caches ----
+*.log
+cache.jsonl
+*.sqlite
+.pytest_cache/
+
+# ---- Data outputs ----
+submission.csv
+*.parquet
+*.feather
